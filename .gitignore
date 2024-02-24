@@ -4,3 +4,8 @@
 *.out
 *.log
 *.aux
+
+# pdftoppm
+*.lof
+*.lot
+*.toc
