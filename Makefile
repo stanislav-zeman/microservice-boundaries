@@ -14,4 +14,14 @@ images: paper.pdf
 
 .PHONY:
 clean:
-	rm paper.log paper.aux paper.out paper.lof paper.lot paper.toc
+	rm -f paper.out \
+		paper.log \
+		paper.aux \
+		paper.lof \
+		paper.lot \
+		paper.toc \
+		paper.bbl \
+		paper.blg \
+		paper.dvi \
+		paper.tex.bbl \
+		paper.tex.blg
