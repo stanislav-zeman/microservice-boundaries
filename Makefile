@@ -4,8 +4,10 @@ all: build clean
 .PHONY:
 build: paper.tex
 	pdflatex paper.tex
+
+.PHONY:
+images: paper.pdf
 	pdftoppm paper.pdf paper -png
-	mv paper-1.png paper.png
 
 .PHONY:
 clean:
