@@ -9,3 +9,10 @@
 *.lof
 *.lot
 *.toc
+
+# bibtex
+*.bbl
+*.blg
+*.dvi
+*.tex.bbl
+*.tex.blg
