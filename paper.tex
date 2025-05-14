@@ -8,39 +8,46 @@
 
 \begin{document}
 
-\title{Automating Microservice Boundaries Definition in Context of Domain-Driven Design}
-\author{Stanislav Zeman
-\thanks{Bruni Rossi, PhD: FI MUNI}}
-\date{February 2024}                       
+\title{Report on Microservice Design Tools in Context of Domain-Driven Design}
+\author{Stanislav Zeman \thanks{Bruni Rossi, PhD: FI MUNI}}
+\date{February 2024}
 
 \begin{titlepage}
 \maketitle
 
-This is the abstract. 
+Microservice architectures have experienced tremendous growth in the path decade. They are a popular choice for many production systems as they provide many benefits compared to the traditional monolithic architecture. However, designing such systems has no specific agreed-upon methodology and is generally a complex process. \\
+
+This paper summarizes some of the published approaches and tooling to automate the creation of such designs in the context of Domain-Driven Design. This report is by no means exhaustive.
 
 \end{titlepage}
 
 \tableofcontents
 
-\pagebreak
 \section{Introduction}\label{s:introduction}
 
-\pagebreak
-\section{DDD}\label{s:ddd}
+\section{Domain-Driven Design}\label{s:ddd}
 
-\pagebreak
-\section{Automation}\label{s:automation}
+Domain-Driven Design (DDD) is a set of practices and an approaches to building and designing software solutions. The DDD helps in aligning the software and it's architecture with bussiness vision, goals and requirements. The DDD as of itself was tossed by \cite{evans2004ddd}.
 
-\subsection{A}\label{s:A}
+The DDD as defined coprises of three pillars; ubiquitous language, strategic and tactical design. All of these are further described in the next section.
 
-\subsection{B}\label{s:B}
+\subsection{Ubiquitous language}
+\subsection{Strategic design}
+\subsection{Tactical design}
 
-\pagebreak
+\subsection{Event Storming}\label{s:event-storming}
+
+\section{Automation & Tooling}\label{s:automation}
+
+\subsection{Service Cutter}\label{s:B}
+\subsection{Context Mapper}\label{s:A}
+
 \section{Conclusion}\label{s:conclusion}
 
-% \begin{appendix}
-% \appendix
-% \listoffigures
-% \end{appendix}
+\bibliography{\bib}
+
+\appendix
+
+\listoffigures
 
 \end{document}
